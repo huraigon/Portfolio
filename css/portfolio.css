@@ -1,0 +1,287 @@
+.header{
+}
+
+.header-fixed{
+    /* 追従 */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    width: 100%;
+    padding: 10px 20px;
+    z-index: 10000000000000;
+    background-color: #ffffff;
+
+    border-bottom: 1px solid #CCC;
+
+    margin: calc(-50vw + 49.99%) calc(-50vw + 50%) 0px calc(-50vw + 50%);
+
+}
+
+.header-icon{
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+
+}
+.header-title{
+  font-size: 24px;
+}
+.header-title-detail{
+  font-size: 10px;
+  color: gray;
+}
+
+main{
+  /*display: flex;*/
+    min-height: 100vh;
+    margin: 5px 50px;
+}
+
+body{
+  /*white-space: pre-wrap;*/
+
+  background-image: url("../image/background.jpg");
+  font-family: "Droid Sans";
+
+}
+
+body p{
+  color: #3c3c3c;
+}
+
+.content{
+}
+
+.top-video{
+  width: 101vw;
+  margin: -16px calc(-50vw + 50%) 0px calc(-50vw + 50%);
+
+}
+
+/*ページ別背景指定*/
+/*2019/10/2 松倉　matsukura*/
+#toppage-back{
+  background-image:url("../image/background_p.jpg");
+  background-attachment: fixed
+  }
+#index-back{
+  background-image:url("../image/background_P.jpg");
+  background-attachment: fixed
+  }
+#history-back{
+  background-image:url("../image/background_B.jpg");
+  background-attachment: fixed
+  }
+#schedule-back{
+  background-image:url("../image/background_G.jpg");
+  background-attachment: fixed
+  }
+#initiation-back{
+  background-image:url("../image/background_R.jpg");
+  background-attachment: fixed
+  }
+#link-back{
+  background-image:url("../image/background_Y.jpg");
+  background-attachment: fixed
+  }
+/*ここまで*/
+
+#jikishinkai-feature{
+  padding: 5px;
+
+}
+
+#jikishinkai-feature-text{
+  display: inline-block;
+  width: 50%;
+  margin: 30px;
+  display: inline-block;
+}
+
+#jikishinkai-feature-image{
+  display: inline-block;
+
+}
+
+.content-index-main{
+  margin: 10px 30px;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+
+.footer{
+    height: 70px;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.article-title{
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.nagaoyosuke{
+  width: 800px;
+  height: 300px;
+}
+
+.top-bigfont{
+  font-size: 38px;
+}
+
+.top-font{
+  font-size: 20px;
+}
+
+#history-content{
+  width: 70%;
+  margin: 0px 15%;
+  padding-top: 10px;
+}
+
+#history-iaijutsu{
+display: flex;
+justify-content: center;
+}
+
+#history-iaijutsu-skill{
+  margin: 8%;
+}
+
+.history-iaijutsu-title{
+  font-size: 18px;
+  font-weight:bold;
+}
+
+.history-subtitle{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.top-subtitle{
+  font-size: 30px;
+  text-align: left;
+  margin-top: 30px;
+}
+/*
+.radio{
+  display: none;
+  margin: 5px; 
+  border: 1px solid #006DD9;
+}
+*/
+.map{
+  text-align: center;
+}
+
+/* 稽古場所用のテーブル */
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr{
+  border-bottom: solid 2px white;
+}
+
+table tr:last-child{
+  border-bottom: none;
+
+}
+
+table th{
+  position: relative;
+  text-align: left;
+  width: 15%;
+  background-color: #52c2d0;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  border-right: solid 2px white;
+}
+
+table td{
+  text-align: left;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px 0;
+  border-right: solid 2px white;
+}
+
+table td:last-child{
+  border-right: none;
+
+}
+
+/* */
+
+/* グローバルナビゲーション */
+/* 2019/07/04　豊田 toyoda */
+/* レイアウト崩れないようにした。 2019/08/23　豊田 toyoda */
+ul {
+
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #bbb;
+    margin: 8px calc(-50vw + 50%) 5px calc(-50vw + 50%);
+    background-color: #FFF;
+}
+
+li {
+    float: left;
+    width: 14%;
+    list-style-type: none;
+}
+
+.global-nav a {
+    font-size: 20px;
+    display: block;
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+a {
+    font-size: 13px;
+    display: inline-block;/*blockからinline-blockに変更した*/
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b0c4de;
+}
+
+/* 見出し */
+/* 2019/11/19　豊田 toyoda */
+h1 {
+  position: relative;
+  padding: 0.25em 0;
+  color: rgb(60, 60, 60);
+}
+h1:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, rgb(255, 255, 255), transparent);
+  background: linear-gradient(to right, rgb(100, 100, 100), transparent);
+}
+
+@media only screen and (max-device-width: 480px) {
+	/* スマホ用のCSS */
+  #jikishinkai-feature{
+    padding: 5px;
+    text-align: center;
+  }
+}
+/*　ここまで */
