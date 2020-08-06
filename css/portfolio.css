@@ -45,19 +45,21 @@ body{
   /*white-space: pre-wrap;*/
 
   background-image: url("../image/background.jpg");
-  font-family: "Droid Sans";
+  font-family: "游ゴシック","メイリオ","ヒラギノ角ゴシック";
 
 }
 
 body p{
   color: #3c3c3c;
+  font-size: 24px;
+  font-family: "游ゴシック","メイリオ","ヒラギノ角ゴシック";
 }
 
 .content{
 }
 
 .top-video{
-  width: 101vw;
+  width: 55vw;
   margin: -16px calc(-50vw + 50%) 0px calc(-50vw + 50%);
 
 }
