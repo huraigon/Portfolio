@@ -55,9 +55,20 @@ body p{
   font-family: "游ゴシック","メイリオ","ヒラギノ角ゴシック";
 }
 
-.content{
+.content{ 
+  padding: 70px;
 }
 
+.text-angle{
+  text-align: left;
+  float: right;
+  padding: 10px;
+}
+
+.text-box{
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
 .top-video{
   width: 55vw;
   margin: -16px calc(-50vw + 50%) 0px calc(-50vw + 50%);
@@ -92,29 +103,11 @@ body p{
   }
 /*ここまで*/
 
-#jikishinkai-feature{
-  padding: 5px;
-
-}
-
-#jikishinkai-feature-text{
-  display: inline-block;
-  width: 50%;
-  margin: 30px;
-  display: inline-block;
-}
-
-#jikishinkai-feature-image{
-  display: inline-block;
-
-}
-
 .content-index-main{
   margin: 10px 30px;
   flex-direction: row-reverse;
   justify-content: space-between;
 }
-
 
 .footer{
     height: 70px;
@@ -125,11 +118,6 @@ body p{
 .article-title{
   font-size: 30px;
   margin-top: 30px;
-}
-
-.nagaoyosuke{
-  width: 800px;
-  height: 300px;
 }
 
 .top-bigfont{
